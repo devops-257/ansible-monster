@@ -1,7 +1,4 @@
 ---
-collections:
-  - community.general
-  - community.docker
 roles:
   - src: geerlingguy.docker
   - src: geerlingguy.swap
