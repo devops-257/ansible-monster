@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: true
+  vars:
+    docker_install_compose_plugin: true
+    docker_users:
+      - demo
+  roles:
+    - geerlingguy.docker
